@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         古诗文网增强
 // @namespace    https://github.com/tfia
-// @version      0.4
+// @version      0.5
 // @description  屏蔽古诗文网登录弹窗，移除阅读页全部广告，自动展开折叠的文本（可选择仅展开译文或全部展开），一键折叠全部文本
 // @author       RhDu
 // @match        https://so.gushiwen.cn/*
@@ -60,6 +60,7 @@ function foldAll()
 (function()
 {
     'use strict';
+    getCookie = function(name) {return "hook";}; // hook 登录检测函数
     //添加菜单选项
     registerMenuCommand();
     GM_registerMenuCommand("#️⃣ 一键折叠所有内容", foldAll, "f");
