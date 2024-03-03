@@ -6,7 +6,7 @@
 // @author       RhDu
 // @match        https://so.gushiwen.cn/*
 // @icon         https://www.google.com/s2/favicons?domain=https://so.gushiwen.cn
-// @require      https://cdn.jsdelivr.net/npm/sweetalert2@11
+// @require      https://cdn.bootcdn.net/ajax/libs/sweetalert2/11.7.27/sweetalert2.all.min.js
 // @grant        GM_registerMenuCommand
 // @grant        GM_unregisterMenuCommand
 // @grant        GM_setValue
